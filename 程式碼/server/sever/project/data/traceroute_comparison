@@ -1,0 +1,27 @@
+{
+    "1": {
+        "latest_avg_latency": 16.394,
+        "avg_latency": 1.166,
+        "percentage_difference": 1306.0
+    },
+    "2": {
+        "latest_avg_latency": 17.09,
+        "avg_latency": 6.59,
+        "percentage_difference": 159.33
+    },
+    "3": {
+        "latest_avg_latency": 16.962,
+        "avg_latency": 9.297,
+        "percentage_difference": 82.45
+    },
+    "4": {
+        "latest_avg_latency": 17.623,
+        "avg_latency": 11.109,
+        "percentage_difference": 58.64
+    },
+    "7": {
+        "latest_avg_latency": 9.974,
+        "avg_latency": 6.53,
+        "percentage_difference": 52.74
+    }
+}

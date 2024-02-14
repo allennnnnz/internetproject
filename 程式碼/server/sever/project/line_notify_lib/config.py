@@ -1,0 +1,3 @@
+Decard_TOKEN = 'Bearer OPA5dwUiJABeVQsxCXVjty29XbhBLaUsXjG9m72mp0K'
+Internetcenter_TOKEN = 'Bearer rILWdUokK0Z9WLdIN6yluyOejzdtNKV8TfECvD7l9kA'
+Chat_room_TOKEN = 'Bearer LwuOGOupKRERbyMSA7XXTFhRwDwwm99i5z4GCJseH2L'

@@ -1,0 +1,482 @@
+{
+    "管院": {
+        "traceroute": [
+            {
+                "exceed": 0,
+                "count": 28
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": 0,
+                "count": 5
+            }
+        ],
+        "Download": [
+            {
+                "speed": "24.12"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "14.66"
+            }
+        ]
+    },
+    "圖書館": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "4"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    },
+    "明德": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "8"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "5.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.95"
+            }
+        ]
+    },
+    "蘊德": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "15"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "15"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "6.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "23.95"
+            }
+        ]
+    },
+    "一醫3F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "8"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "27.95"
+            }
+        ]
+    },
+    "二醫B2F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "8"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "20.95"
+            }
+        ]
+    },
+    "工院3F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "8"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    },
+    "管院4F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "8"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    },
+    "益德4F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "8"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    },
+    "益德9F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "8"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    },
+    "蘊德5F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "8"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    },
+    "蘊德11F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "8"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    },
+    "明德2F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "8"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    },
+    "明德5F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "8"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    },
+    "聚德1F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "8"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    },
+    "聚德3F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "8"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    },
+    "聚德4F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "8"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "4"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    },
+    "聚德7F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "0"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "0"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    },
+    "聚德10F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "3"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "3"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    },
+    "聚德11F": {
+        "traceroute": [
+            {
+                "exceed": "6",
+                "count": "11"
+            }
+        ],
+        "webloading": [
+            {
+                "exceed": "12",
+                "count": "11"
+            }
+        ],
+        "Download": [
+            {
+                "speed": "7.11"
+            }
+        ],
+        "Upload": [
+            {
+                "speed": "22.00"
+            }
+        ]
+    }
+}

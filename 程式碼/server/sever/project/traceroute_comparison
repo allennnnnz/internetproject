@@ -1,0 +1,69 @@
+import json
+
+# 指定JSON文件的路径
+json_file_path_traceroute = "E:/project/data/traceroute_log"
+json_file_path_avg = "E:/project/data/traceroute_avg"
+json_file_path_result = "E:/project/data/traceroute_comparison"
+
+def read_json_file(json_file_path):
+    try:
+        with open(json_file_path, 'r', encoding='utf-8') as json_file:
+            # 从文件中加载JSON数据
+            data = json.load(json_file)
+            return data
+    except FileNotFoundError:
+        return {}
+    except json.JSONDecodeError as e:
+        return {}
+    except Exception as e:
+        return {}
+
+# 读取最新的traceroute数据
+latest_traceroute_data = read_json_file(json_file_path_traceroute)
+if not latest_traceroute_data:
+    print("无法读取最新的traceroute数据")
+    exit()
+
+# 取出最后一项数据进行比较
+latest_data = latest_traceroute_data[-1]
+
+# 计算最新数据的平均latency
+latest_latency_avg = {}
+for hop_entry in latest_data["traceroute"]:
+    hop_key = f"{hop_entry['hop']}"  # 使用hop作为唯一标识符
+    latency_values = [float(lat.replace(" ms", "")) for lat in hop_entry["latency"]]
+    average_latency = round(sum(latency_values) / len(latency_values), 3)
+    latest_latency_avg[hop_key] = average_latency
+
+# 读取历史平均数据
+avg_traceroute_data = read_json_file(json_file_path_avg)
+if not avg_traceroute_data:
+    print("无法读取历史平均数据")
+    exit()
+
+
+# 比较最新数据和历史平均数据
+comparison_result = {}
+
+for hop_key, latest_avg_latency in latest_latency_avg.items():
+    if hop_key in avg_traceroute_data:
+        avg_latency = avg_traceroute_data[hop_key]["latency"]
+
+        # 计算百分比差异
+        percentage_difference = ((latest_avg_latency - avg_latency) / avg_latency) * 100
+
+        # 如果最新数据的平均latency高于历史平均20%，记录在结果中
+        if percentage_difference > 20:
+            comparison_result[hop_key] = {
+                "latest_avg_latency": latest_avg_latency,
+                "avg_latency": avg_latency,
+                "percentage_difference": round(percentage_difference, 2)
+            }
+
+# 将比较结果写入JSON文件
+if comparison_result:
+    with open(json_file_path_result, 'w', encoding='utf-8') as result_file:
+        json.dump(comparison_result, result_file, indent=4)
+        print("已记录差异数据到JSON文件")
+else:
+    print("没有发现差异数据")

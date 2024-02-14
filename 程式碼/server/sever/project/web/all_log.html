@@ -1,0 +1,253 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/main_page.css" type="text/css">
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/rest.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="jquery.flexslider.js"></script>
+    <script type="text/javaseriot" charset="utf-8">
+        $(window).load(function(){
+            $('.flexslider').flexslider({)
+        });
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>allen pages</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    
+</head>
+
+<body style="background-color: whitesmoke;">
+    <nav  class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #708090;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./dashboard.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./traceroute.html">Traceroute</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Webloading</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="main">
+        <div class="container-fluid">
+            <div class="row " style="height: 1000px;">
+                <div class="col-md-6" style=" background-color: rgb(221, 193, 193);">
+                    <style>
+                        
+                      
+                        th:hover::before {
+                          content: attr(title);
+                          position: absolute;
+                          top: 100%;
+                          left: 0;
+                          display: block;
+                          background-color: #f5f5f5;
+                          padding: 5px;
+                        }
+                      </style>
+                    <table id="traceroute" class="display" style="width:100%" border="1">
+                        <thead>
+                            <tr  style="text-align: center; background-color: dimgray; ">
+                                
+                                <th><h3>HOP</h3></th>
+                                <th title="GT-AX11000-36C0 (10.236.100.254)">1</th>
+                                <th title="163.25.101.254">2</th>
+                                <th title="192.168.101.49">3</th>
+                                <th title="192.168.201.124">4</th>
+                                <th title="192.168.201.126">5</th>
+                                <th title="140.111.230.13">6</th>
+                                <th title="192.192.61.191">7</th>
+                                <th title="192.192.61.4">8</th>
+                                <th> ... </th>
+                                <th title="dns.hinet.net (168.95.1.1)">13</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody style="text-align: center;">
+                            
+                            
+                           
+                        </tbody>
+                        
+                    </table>
+                </div>  
+                <div class="col-md-6" style=" background-color:rgb(204, 124, 26);">
+
+                </div>
+                        
+                
+            </div>
+        </div>
+    </section>
+
+    
+    
+
+    
+   
+  
+
+    <script>
+        // 使用 fetch 從伺服器獲取 JSON 檔案
+        window.onload = function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const location = urlParams.get('location');
+            const mode = urlParams.get('mode');
+            let AVG = {};
+    
+            async function fetchAVGData() {
+                try {
+                    const traceroute_avg = await fetch('./data/traceroute_avg.json');
+                    const traceroute_log = await fetch('./data/traceroute_log_webpage.json');
+                    if (!traceroute_avg.ok) {
+                        throw new Error('traceroute_avg請求失敗');
+                    }
+                    else if (! traceroute_log.ok){
+                        throw new Error('traceroute_log請求失敗');
+                    }
+                    traceroute_AVG = await traceroute_avg.json();
+                    traceroute_LOG = await traceroute_log.json();
+                } catch (error) {
+                    console.error('获取 AVG_JSON 时出错：', error);
+                }
+            }
+    
+            function AVGtime_dispaly(data, targetElementId) {
+                var dcardElement = document.getElementById(targetElementId);
+                dcardElement.innerHTML = '';
+                console.log(data);
+            }
+    
+            fetchAVGData()
+                .then(() => {
+                    history_avg(traceroute_AVG);
+                    append_data(traceroute_LOG)
+                });
+        };
+        
+
+        function history_avg(data) {
+            var table = document.getElementById('traceroute').getElementsByTagName('tbody')[0];
+            var hop_avg = [];
+            for (var key in data) {
+                if (data.hasOwnProperty(key)) {
+                    avg = data[key].latency
+                    hop_avg.push(parseFloat(avg.toFixed(3)));
+                    
+                }
+            }
+            var row = `
+                        <tr>
+                            <td>歷史平均</td>
+                            <td>${hop_avg[0]}</td>
+                            <td>${hop_avg[1]}</td>
+                            <td>${hop_avg[2]}</td>
+                            <td>${hop_avg[3]}</td>
+                            <td>${hop_avg[4]}</td>
+                            <td>${hop_avg[5]}</td>
+                            <td>${hop_avg[6]}</td>
+                            <td>${hop_avg[7]}</td>
+                            
+                            <td>${hop_avg[12]}</td>
+                            
+                            
+                            
+                        </tr>`;
+                    table.innerHTML += row;
+        }
+        function append_data(data) {
+    var table = document.getElementById('traceroute').getElementsByTagName('tbody')[0];
+    
+    // 从最后一笔数据开始，向前读取500笔数据
+    var startIndex = data.length - 500;
+    
+    for (let i = startIndex; i < data.length; i++) {
+        const jsonData = data[i];
+        // 提取时间戳
+        const timetmp = jsonData.timetmp;
+        console.log("时间戳：" + timetmp);
+
+        // 提取路由跟踪信息
+        const tracerouteData = jsonData.traceroute;
+
+        // 创建新行字符串
+        var row = '<tr>';
+        row += '<td>' + timetmp + '</td>';
+
+        var processedHops = 0; // 记录已处理的跳数
+        var count = 1
+        for (const hopData of tracerouteData) {
+            const hop = hopData.hop;
+            const latency = hopData.latency[0];
+
+            // 处理前8个跳数和第13个跳数
+            if ((hop >= 1 && hop <= 8) || hop === 13) {
+                console.log(count)
+                if(hop === 13){
+                    
+                    row += '<td>' + " " + '</td>';
+                    
+                }
+                    
+                const latencyValue = latency.replace(" ms", "");
+                if(latencyValue>30)
+                {
+                    row += '<td style="background-color: red;">' + latencyValue + '</td>';
+                }else{
+                    row += '<td>' + latencyValue + '</td>';
+                }
+                
+                
+                processedHops++;
+            }
+
+            if (processedHops === 9) {
+                break; // 处理完前8个和第13个跳数后退出内部循环
+            }
+        }
+
+        row += '</tr>';
+
+        // 将新行添加到表格的开头
+        table.innerHTML = row + table.innerHTML;
+    }
+}
+    </script>
+    
+
+    
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+{
+    "1": {
+        "load_time_seconds": 19.808,
+        "url": "https://edition.cnn.com/us",
+        "count": 3853
+    },
+    "2": {
+        "load_time_seconds": 9.123,
+        "url": "https://tw.yahoo.com/",
+        "count": 3870
+    },
+    "14": {
+        "load_time_seconds": 2.286,
+        "url": "https://www.ptt.cc/",
+        "count": 3625
+    },
+    "3": {
+        "load_time_seconds": 18.838,
+        "url": "https://hboasia.com/",
+        "count": 3586
+    },
+    "4": {
+        "load_time_seconds": 18.031,
+        "url": "https://tw.news.yahoo.com/",
+        "count": 3581
+    },
+    "5": {
+        "load_time_seconds": 2.1,
+        "url": "https://www.msn.com/",
+        "count": 3581
+    },
+    "6": {
+        "load_time_seconds": 7.451,
+        "url": "https://discord.com/blog",
+        "count": 3581
+    },
+    "7": {
+        "load_time_seconds": 10.269,
+        "url": "https://www.youtube.com/",
+        "count": 3581
+    },
+    "8": {
+        "load_time_seconds": 7.687,
+        "url": "https://www.bilibili.com/",
+        "count": 3581
+    },
+    "9": {
+        "load_time_seconds": 24.021,
+        "url": "https://24h.pchome.com.tw/",
+        "count": 3581
+    },
+    "10": {
+        "load_time_seconds": 6.192,
+        "url": "https://twitter.com/",
+        "count": 3581
+    },
+    "11": {
+        "load_time_seconds": 2.548,
+        "url": "https://www.facebook.com/",
+        "count": 3582
+    },
+    "12": {
+        "load_time_seconds": 2.907,
+        "url": "https://www.instagram.com/",
+        "count": 3582
+    },
+    "13": {
+        "load_time_seconds": 9.796,
+        "url": "https://www.tiktok.com/",
+        "count": 3852
+    },
+    "15": {
+        "load_time_seconds": 6.478,
+        "url": "https://www.netflix.com/",
+        "count": 3582
+    },
+    "16": {
+        "load_time_seconds": 6.788,
+        "url": "https://www.apple.com/",
+        "count": 3582
+    },
+    "17": {
+        "load_time_seconds": 3.969,
+        "url": "https://twitchadvertising.tv/",
+        "count": 3582
+    },
+    "18": {
+        "load_time_seconds": 5.249,
+        "url": "https://discord.com/",
+        "count": 3582
+    },
+    "19": {
+        "load_time_seconds": 5.168,
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "count": 3582
+    },
+    "20": {
+        "load_time_seconds": 21.187,
+        "url": "https://www.dropbox.com/",
+        "count": 3582
+    },
+    "21": {
+        "load_time_seconds": 6.412,
+        "url": "https://www.microsoft.com/",
+        "count": 3582
+    },
+    "22": {
+        "load_time_seconds": 11.529,
+        "url": "https://www.webex.com/",
+        "count": 3582
+    },
+    "23": {
+        "load_time_seconds": 5.927,
+        "url": "https://discord.com/servers",
+        "count": 3582
+    },
+    "24": {
+        "load_time_seconds": 7.128,
+        "url": "https://store.steampowered.com/",
+        "count": 3582
+    },
+    "25": {
+        "load_time_seconds": 8.589,
+        "url": "https://www.gamer.com.tw/",
+        "count": 3852
+    },
+    "26": {
+        "load_time_seconds": 19.546,
+        "url": "https://www.twitch.tv/",
+        "count": 3852
+    },
+    "27": {
+        "load_time_seconds": 4.005,
+        "url": "https://blog.twitch.tv/en/",
+        "count": 3575
+    },
+    "28": {
+        "load_time_seconds": 10.347,
+        "url": "https://www.twitch.tv/p/en/stream/",
+        "count": 3852
+    },
+    "29": {
+        "load_time_seconds": 21.109,
+        "url": "https://global.espn.com/",
+        "count": 230
+    },
+    "30": {
+        "load_time_seconds": 17.237,
+        "url": "https://shopee.tw/",
+        "count": 230
+    },
+    "31": {
+        "load_time_seconds": 0.676,
+        "url": "https://www.momoshop.com.tw/",
+        "count": 230
+    },
+    "32": {
+        "load_time_seconds": 10.265,
+        "url": "https://www.xiaohongshu.com/",
+        "count": 230
+    },
+    "33": {
+        "load_time_seconds": 3.664,
+        "url": "https://m.weibo.cn",
+        "count": 230
+    }
+}

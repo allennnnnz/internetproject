@@ -1,0 +1,116 @@
+{
+    "1": {
+        "host": "GT-AX11000-36C0 (10.236.100.254)",
+        "latency": 5.29,
+        "latency_sum": 5502,
+        "count": 1834
+    },
+    "2": {
+        "host": "163.25.101.254 (163.25.101.254)",
+        "latency": 6.928,
+        "latency_sum": 9402,
+        "count": 3134
+    },
+    "3": {
+        "host": "192.168.101.49 (192.168.101.49)",
+        "latency": 8.551,
+        "latency_sum": 9108,
+        "count": 3036
+    },
+    "4": {
+        "host": "192.168.201.124 (192.168.201.124)",
+        "latency": 8.651,
+        "latency_sum": 9246,
+        "count": 3082
+    },
+    "5": {
+        "host": "192.168.201.126 (192.168.201.126)",
+        "latency": 9.404,
+        "latency_sum": 9279,
+        "count": 3093
+    },
+    "6": {
+        "host": "140.111.230.13 (140.111.230.13)",
+        "latency": 8.233,
+        "latency_sum": 9408,
+        "count": 3136
+    },
+    "7": {
+        "host": "192.192.61.191 (192.192.61.191)",
+        "latency": 8.496,
+        "latency_sum": 9381,
+        "count": 3127
+    },
+    "8": {
+        "host": "192.192.61.4 (192.192.61.4)",
+        "latency": 9.043,
+        "latency_sum": 9348,
+        "count": 3116
+    },
+    "9": {
+        "host": "sczs-3311.hinet.net (210.65.126.151)",
+        "latency": 9.745,
+        "latency_sum": 5541,
+        "count": 1847
+    },
+    "13": {
+        "host": "dns.hinet.net (168.95.1.1)",
+        "latency": 8.529,
+        "latency_sum": 9297,
+        "count": 3099
+    },
+    "10": {
+        "host": "tpdb-3031.hinet.net (220.128.1.78)",
+        "latency": 11.072,
+        "latency_sum": 879,
+        "count": 293
+    },
+    "14": {
+        "host": "dns.hinet.net (168.95.1.1)",
+        "latency": 12.218,
+        "latency_sum": 78,
+        "count": 26
+    },
+    "12": {
+        "host": "203-74-40-169.hinet-ip.hinet.net (203.74.40.169)",
+        "latency": 9.285,
+        "latency_sum": 1104,
+        "count": 368
+    },
+    "12_2": {
+        "host": "203-74-40-165.hinet-ip.hinet.net (203.74.40.165)",
+        "latency": 11.981,
+        "latency_sum": 1155,
+        "count": 385
+    },
+    "11": {
+        "host": "tpdb-3311.hinet.net (220.128.3.85)",
+        "latency": 9.967,
+        "latency_sum": 339,
+        "count": 113
+    },
+    "10_2": {
+        "host": "tpdb-3031.hinet.net (220.128.1.58)",
+        "latency": 8.346,
+        "latency_sum": 153,
+        "count": 51
+    },
+    "11_2": {
+        "host": "tpdb-3311.hinet.net (220.128.3.189)",
+        "latency": 9.402,
+        "latency_sum": 729,
+        "count": 243
+    },
+    "1_2": {
+        "host": "GT-AX11000-4850 (10.237.100.254)",
+        "latency": 4.836,
+        "latency_sum": 3858,
+        "count": 1286
+    },
+    "16": {
+        "host": "dns.hinet.net (168.95.1.1)",
+        "latency": 12.19,
+        "latency_sum": 3,
+        "count": 1
+    }
+}

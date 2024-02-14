@@ -1,0 +1,167 @@
+{
+    "1": {
+        "load_time_seconds": 20.057,
+        "url": "https://edition.cnn.com/us",
+        "count": 1103
+    },
+    "2": {
+        "load_time_seconds": 12.222,
+        "url": "https://tw.yahoo.com/",
+        "count": 1121
+    },
+    "14": {
+        "load_time_seconds": 2.286,
+        "url": "https://www.ptt.cc/",
+        "count": 877
+    },
+    "3": {
+        "load_time_seconds": 16.312,
+        "url": "https://hboasia.com/",
+        "count": 838
+    },
+    "4": {
+        "load_time_seconds": 15.772,
+        "url": "https://tw.news.yahoo.com/",
+        "count": 833
+    },
+    "5": {
+        "load_time_seconds": 2.058,
+        "url": "https://www.msn.com/",
+        "count": 833
+    },
+    "6": {
+        "load_time_seconds": 7.314,
+        "url": "https://discord.com/blog",
+        "count": 833
+    },
+    "7": {
+        "load_time_seconds": 10.366,
+        "url": "https://www.youtube.com/",
+        "count": 833
+    },
+    "8": {
+        "load_time_seconds": 8.002,
+        "url": "https://www.bilibili.com/",
+        "count": 833
+    },
+    "9": {
+        "load_time_seconds": 28.02,
+        "url": "https://24h.pchome.com.tw/",
+        "count": 833
+    },
+    "10": {
+        "load_time_seconds": 8.453,
+        "url": "https://twitter.com/",
+        "count": 833
+    },
+    "11": {
+        "load_time_seconds": 2.407,
+        "url": "https://www.facebook.com/",
+        "count": 834
+    },
+    "12": {
+        "load_time_seconds": 2.818,
+        "url": "https://www.instagram.com/",
+        "count": 834
+    },
+    "13": {
+        "load_time_seconds": 8.117,
+        "url": "https://www.tiktok.com/",
+        "count": 1104
+    },
+    "15": {
+        "load_time_seconds": 6.991,
+        "url": "https://www.netflix.com/",
+        "count": 834
+    },
+    "16": {
+        "load_time_seconds": 6.719,
+        "url": "https://www.apple.com/",
+        "count": 834
+    },
+    "17": {
+        "load_time_seconds": 4.042,
+        "url": "https://twitchadvertising.tv/",
+        "count": 834
+    },
+    "18": {
+        "load_time_seconds": 5.242,
+        "url": "https://discord.com/",
+        "count": 834
+    },
+    "19": {
+        "load_time_seconds": 5.31,
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "count": 834
+    },
+    "20": {
+        "load_time_seconds": 19.632,
+        "url": "https://www.dropbox.com/",
+        "count": 834
+    },
+    "21": {
+        "load_time_seconds": 6.339,
+        "url": "https://www.microsoft.com/",
+        "count": 834
+    },
+    "22": {
+        "load_time_seconds": 4.562,
+        "url": "https://www.webex.com/",
+        "count": 834
+    },
+    "23": {
+        "load_time_seconds": 6.29,
+        "url": "https://discord.com/servers",
+        "count": 834
+    },
+    "24": {
+        "load_time_seconds": 6.709,
+        "url": "https://store.steampowered.com/",
+        "count": 834
+    },
+    "25": {
+        "load_time_seconds": 8.603,
+        "url": "https://www.gamer.com.tw/",
+        "count": 1104
+    },
+    "26": {
+        "load_time_seconds": 19.013,
+        "url": "https://www.twitch.tv/",
+        "count": 1104
+    },
+    "27": {
+        "load_time_seconds": 3.968,
+        "url": "https://blog.twitch.tv/en/",
+        "count": 827
+    },
+    "28": {
+        "load_time_seconds": 10.284,
+        "url": "https://www.twitch.tv/p/en/stream/",
+        "count": 1104
+    },
+    "29": {
+        "load_time_seconds": 21.109,
+        "url": "https://global.espn.com/",
+        "count": 230
+    },
+    "30": {
+        "load_time_seconds": 17.237,
+        "url": "https://shopee.tw/",
+        "count": 230
+    },
+    "31": {
+        "load_time_seconds": 0.676,
+        "url": "https://www.momoshop.com.tw/",
+        "count": 230
+    },
+    "32": {
+        "load_time_seconds": 10.265,
+        "url": "https://www.xiaohongshu.com/",
+        "count": 230
+    },
+    "33": {
+        "load_time_seconds": 3.664,
+        "url": "https://m.weibo.cn",
+        "count": 230
+    }
+}
